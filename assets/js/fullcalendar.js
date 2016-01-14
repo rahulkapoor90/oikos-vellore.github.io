@@ -9338,7 +9338,7 @@ Calendar.defaults = {
 	},
 	
 	// jquery-ui theming
-	theme: false,
+	theme: true,
 	themeButtonIcons: {
 		prev: 'circle-triangle-w',
 		next: 'circle-triangle-e',

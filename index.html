@@ -5,11 +5,21 @@
 		<title>oikos Asia Meet 2016</title>
 		<meta charset="utf-8" />
 		<link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
+        <link rel="stylesheet" href="css/theme6.css" type="text/css" media="screen" />
 		<script src='lib/jquery.min.js'></script>
 		<script src='lib/moment.min.js'></script>
 		<script src='fullcalendar/fullcalendar.js'></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js"></script>
+
+		<!-- AddEvent Settings -->
+		<script type="text/javascript">
+		addeventatc.settings({
+			license    : "replace-with-your-licensekey",
+			css        : false
+		});
+		</script>
 	</head>
 	<body class="landing">
 		<div id="page-wrapper">
@@ -20,8 +30,9 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="index.html">Home</a></li>
-                            <li><a href="/Schedule/index.html">Schedule</a></li>
+                            <li><a href="schedule.html">Schedule</a></li>
 							<li><a href="apply.html">Apply</a></li>
+                            <li><a href="about.html">About Us</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -31,7 +42,20 @@
 					<div class="content">
 						<header>
 							<h2>Welcome to the #OneWorldConference.</h2>
-							<p>April 14-17, 2016</p>
+							<p>April 14-17, 2016 <div title="Add to Calendar" class="addeventatc">
+	    Add to Calendar
+	    <span class="arrow">&nbsp;</span>
+	    <span class="start">04/14/2016 09:00 AM</span>
+	    <span class="end">04/17/2015 11:00 AM</span>
+	    <span class="timezone">Asia/Kolkatta</span>
+	    <span class="title">oikos Asia Meet 2016 </span>
+	    <span class="description">#OneWorldConference</span>
+	    <span class="location">Vellore, India</span>
+	    <span class="organizer">oikos Vellore</span>
+	    <span class="president@oikos-vellore.org"></span>
+	    <span class="all_day_event">true</span>
+	    <span class="date_format">MM/DD/YYYY</span>
+	</div> </p>
 						</header>
 						<span class="image"><img src="images/pic01.jpg" alt="oikos logo" /></span>
 					</div>
@@ -155,6 +179,7 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/new.js"></script>
+            <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js"></script>
 
 	</body>
 </html>
