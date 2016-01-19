@@ -8,6 +8,7 @@
 		<link rel='stylesheet' href='assets/css/fullcalendar.css' />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link  rel="stylesheet" href="assets/css/fullcalendar.print.css" media="print" />
 <script src='lib/jquery.min.js'></script>
 <script src='lib/moment.min.js'></script>
 <script src='assets/js/fullcalendar.js'></script>
@@ -45,8 +46,10 @@
             googleCalendarId: 's4bdi9kc5jffgi8cbhsh8o1ojg@group.calendar.google.com'
                 
         },
-                defaultDate: moment('2016-04-14')
+                defaultDate: moment('2016-04-14'),
+                defaultView: 'agendaDay'
     });
+            
 });
 
 </script>
