@@ -9377,7 +9377,7 @@ Calendar.englishDefaults = { // used by lang.js
 Calendar.rtlDefaults = { // right-to-left defaults
 	header: { // TODO: smarter solution (first/center/last ?)
 		left: 'next,prev today',
-		center: '',
+		center: 'today',
 		right: 'title'
 	},
 	buttonIcons: {
